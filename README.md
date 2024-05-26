@@ -4,7 +4,37 @@
 
 This project performs an in-depth analysis of product data from Flipkart, one of India's largest e-commerce platforms. The analysis aims to identify trends and patterns in product pricing, customer preferences, and seasonal variations in product categories. Insights derived from this analysis could help vendors optimize their sales strategies and improve product placement on the platform.
 
-## Project Description
+
+
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+
+## Project Structure
+
+The project is organized as follows:
+
+- **data/**: Folder containing the datasets in CSV format.
+- **notebooks/**: Jupyter notebooks with detailed analysis and visualizations.
+- **scripts/**: Python scripts for data cleaning and preprocessing.
+- **output/**: Output files and figures generated from the analysis.
+- **requirements.txt**: A file listing all necessary Python libraries.
+
+## Usage
+
+To run the analysis, navigate to the project directory and execute the Jupyter notebooks:
+
+ main.ipynb
+
+## Features
+
+### Project Description
 
 ### Flipkart Grocery Sales Data Analysis
 
@@ -49,34 +79,7 @@ The dataset used in this project is obtained from [Kaggle](https://www.kaggle.co
 - Examined sales data by region to understand regional revenue distribution and growth rates.
 - Identified top-performing cities and assessed market penetration and sales density.
 
-
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-
-
-## Project Structure
-
-The project is organized as follows:
-
-- **data/**: Folder containing the datasets in CSV format.
-- **notebooks/**: Jupyter notebooks with detailed analysis and visualizations.
-- **scripts/**: Python scripts for data cleaning and preprocessing.
-- **output/**: Output files and figures generated from the analysis.
-- **requirements.txt**: A file listing all necessary Python libraries.
-
-## Usage
-
-To run the analysis, navigate to the project directory and execute the Jupyter notebooks:
-
- main.ipynb
-
-
+  
 ## Contributing
 
 Contributions to improve the analysis or expand the dataset are welcome. Here’s how you can contribute:
