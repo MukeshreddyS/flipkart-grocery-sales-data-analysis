@@ -1,5 +1,3 @@
-# requirements.txt
-
 # Data manipulation and analysis
 pandas==1.4.2
 
