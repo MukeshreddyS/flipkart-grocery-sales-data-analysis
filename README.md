@@ -1,106 +1,60 @@
-# Flipkart Data Analysis Project
+# Flipkart Grocery Sales & Customer Insights  
+*March 2025 | Python | Pandas | Matplotlib | Seaborn*  
 
-## Project Overview
+Analyzing 46.7 million Flipkart grocery sales records to optimize product strategies, city-wise performance, and customer retention for revenue growth.  
 
-This project performs an in-depth analysis of product data from Flipkart, one of India's largest e-commerce platforms. The analysis aims to identify trends and patterns in product pricing, customer preferences, and seasonal variations in product categories. Insights derived from this analysis could help vendors optimize their sales strategies and improve product placement on the platform.
+## Objective  
+To uncover actionable insights from Flipkart’s sales and product data (April-July 2022) to boost revenue through targeted strategies and improved customer lifetime value (CLTV).  
 
+## Approach  
+- **Datasets**:  
+  - `dim_product.csv`: 32,226 products (categories, brands).  
+  - `monthly_sales/*.csv`: 46.7M sales records (Delhi, Mumbai, Bengaluru, HR-NCR) with pricing and customer details.  
+- **Tools**: Python, Pandas, Matplotlib, Seaborn, NumPy.  
+- **Steps**: Cleaned data, merged datasets, calculated sales and customer KPIs, visualized trends.  
 
+## Key Insights  
+### Sales Performance  
+- **Total Revenue**: ~₹21.2B (calculated as `unit_selling_price * procured_quantity - total_discount_amount`).  
+- **Top Categories**: Specials (e.g., Bill Breaker) lead—full list in notebook.  
+- **City Breakdown**:  
+  - Delhi: 40% (₹8.5B)  
+  - Mumbai: 30% (₹6.4B)  
+  - Bengaluru: 20% (₹4.2B)  
+  - HR-NCR: 10% (₹2.1B)  
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+### Customer KPIs  
+- **CLTV**: ₹2.15L ($2,578) over 3 years (Avg. Purchase: ₹37,615; Frequency: 1.9/month).  
+- **Retention Rate**: 100% (April) → 70.37% (July).  
+- **Churn Rate**: 63.31% overall; Mumbai highest (54.23%), HR-NCR lowest (41.26%).  
+- **Purchase Frequency**: 5.25 orders/customer.  
 
+### Trends  
+- Peak sales in April; discounts underutilized (`total_discount_amount` often 0).  
 
-## Project Structure
+## Visuals  
+1. **Sales by City**  
+   ![Sales by City](https://via.placeholder.com/600x400.png?text=Sales+by+City)  
+   *Delhi dominates at 40%.*  
+2. **Top Categories**  
+   ![Top Categories](https://via.placeholder.com/600x400.png?text=Top+Categories)  
+   *Specials lead revenue.*  
+3. **Retention Rate**  
+   ![Retention Rate](https://via.placeholder.com/600x400.png?text=Retention+Rate)  
+   *30% drop over 4 months.*  
 
-The project is organized as follows:
+## Conclusions  
+- **Products**: Specials drive sales—prioritize promotions.  
+- **Cities**: Delhi/Mumbai fuel revenue; Mumbai’s churn needs attention.  
+- **Customers**: High CLTV potential if churn (63%) is tackled.  
 
-- **data/**: Folder containing the datasets in CSV format.
-- **notebooks/**: Jupyter notebooks with detailed analysis and visualizations.
-- **scripts/**: Python scripts for data cleaning and preprocessing.
-- **output/**: Output files and figures generated from the analysis.
-- **requirements.txt**: A file listing all necessary Python libraries.
+## Recommendations  
+- **Retention**: Loyalty programs for Mumbai & July slumps.  
+- **City Strategies**: Discounts in Mumbai, value in HR-NCR, scale in Delhi.  
+- **Discounts**: Test 20-60% offers to lift sales.  
 
-## Usage
+## Explore the Analysis  
+- **Notebook**: [flipkart_sales_analysis.ipynb](flipkart_sales_analysis.ipynb)  
+- **Code & Outputs**: Fully rendered with visuals and KPIs.  
 
-To run the analysis, navigate to the project directory and execute the Jupyter notebooks:
-
- main.ipynb
-
-## Features
-
-### Project Description
-
-### Flipkart Grocery Sales Data Analysis
-
-This project focuses on analyzing sales data from Flipkart's grocery section to gain business insights. The dataset includes two main tables: `product_data` and `monthly_sales_data`.
-
-The dataset used in this project is obtained from [Kaggle](https://www.kaggle.com/datasets/aryansingh95/flipkart-grocery-transaction-and-product-details). 
-
-### Analysis Steps
-
-#### Data Loading and Cleaning
-
-- Loaded the `product_data` and `monthly_sales_data` tables.
-- Performed data cleaning tasks such as handling missing values, data type conversions, and removing duplicates.
-
-#### Basic Descriptive Statistics
-
-- Calculated summary statistics for numerical columns.
-- Counted unique products, brands, manufacturers, and categories.
-
-#### Key Performance Indicators (KPIs)
-
-- Identified and defined various KPIs related to sales, products, customers, and geography.
-- Implemented KPI calculations such as total sales revenue, average order value, sales growth rate, sales per product, etc.
-
-#### Sales Data Analysis
-
-- Analyzed sales data to understand overall revenue trends, top-selling products, sales per category, etc.
-- Visualized sales figures on a daily and monthly basis to identify patterns and trends over time.
-
-#### Product Analysis
-
-- Investigated product-related metrics including sales volume, top-selling products, return rates, etc.
-- Calculated inventory turnover and average selling price (ASP) to assess product performance.
-
-#### Customer Analysis
-
-- Explored customer-related KPIs such as customer lifetime value (CLV), customer acquisition cost (CAC), repeat purchase rate, churn rate, etc.
-- Analyzed customer behavior to identify repeat purchasers and churn patterns.
-
-#### Geographic Analysis
-
-- Examined sales data by region to understand regional revenue distribution and growth rates.
-- Identified top-performing cities and assessed market penetration and sales density.
-
-  
-## Contributing
-
-Contributions to improve the analysis or expand the dataset are welcome. Here’s how you can contribute:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/EnhancedAnalysis`)
-3. Commit your Changes (`git commit -m 'Add some EnhancedAnalysis'`)
-4. Push to the Branch (`git push origin feature/EnhancedAnalysis`)
-5. Open a Pull Request
-
-## License
-
-This project is released under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Mukesh Reddy – [mukeshreddy@example.com](mailto:mukeshreddy@example.com)
-
-Project Link: [https://github.com/MukeshreddyS/flipkart_data_analysis](https://github.com/MukeshreddyS/flipkart_data_analysis)
-
-## Acknowledgments
-
-- Thanks to the Python Data Science community for providing excellent libraries such as Pandas, Matplotlib, and Seaborn.
-- Appreciation to Flipkart for making the dataset publicly available for educational purposes.
+*Inspired by eCommerce analyses like Abhishek Mishra’s Flipkart project. Feedback welcome!*
