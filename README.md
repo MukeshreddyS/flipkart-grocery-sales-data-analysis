@@ -42,7 +42,7 @@ To uncover actionable insights from Flipkart’s sales and product data (April-J
    *Specials lead revenue.*  
 
 3. **Dashboard**  
-   ![Dashboard](https://i.imgur.com/your-direct-image-url.png)  
+   ![Dashboard](output/dashboard.png)  
 
 
 ## Conclusions  
