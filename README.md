@@ -34,14 +34,13 @@ To uncover actionable insights from Flipkart’s sales and product data (April-J
 
 ## Visuals  
 1. **Sales by City**  
-   ![Sales by City](https://via.placeholder.com/600x400.png?text=Sales+by+City)  
+   ![Sales by City](https://imgur.com/a/v4WbH8E)  
    *Delhi dominates at 40%.*  
 2. **Top Categories**  
-   ![Top Categories](https://via.placeholder.com/600x400.png?text=Top+Categories)  
-   *Specials lead revenue.*  
-3. **Retention Rate**  
-   ![Retention Rate](https://via.placeholder.com/600x400.png?text=Retention+Rate)  
-   *30% drop over 4 months.*  
+   ![Top Categories](https://imgur.com/a/2nRTH6u)  
+   *Specials lead revenue.*
+3. **Dashboard**
+   ![Dashboard](https://imgur.com/a/cU3LR5c)
 
 ## Conclusions  
 - **Products**: Specials drive sales—prioritize promotions.  
@@ -51,7 +50,9 @@ To uncover actionable insights from Flipkart’s sales and product data (April-J
 ## Recommendations  
 - **Retention**: Loyalty programs for Mumbai & July slumps.  
 - **City Strategies**: Discounts in Mumbai, value in HR-NCR, scale in Delhi.  
-- **Discounts**: Test 20-60% offers to lift sales.  
+- **Discounts**: Test 20-60% offers to lift sales.
+
+
 
 ## Explore the Analysis  
 - **Notebook**: [flipkart_sales_analysis.ipynb](flipkart_sales_analysis.ipynb)  
