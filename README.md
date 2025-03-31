@@ -34,11 +34,11 @@ To uncover actionable insights from Flipkart’s sales and product data (April-J
 
 ## Visuals  
 1. **Sales by City**  
-   ![Sales by City](https://i.imgur.com/your-direct-image-url.png)  
+   ![Sales by City](output/plot7.png)  
    *Delhi dominates at 40%.*  
 
 2. **Top Categories**  
-   ![Top Categories](https://i.imgur.com/your-direct-image-url.png)  
+   ![Top Categories](output/plot5.png)  
    *Specials lead revenue.*  
 
 3. **Dashboard**  
