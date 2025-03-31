@@ -1,5 +1,5 @@
 # Flipkart Grocery Sales & Customer Insights  
-*March 2025 | Python | Pandas | Matplotlib | Seaborn*  
+* Data analysis | Python | Pandas | Matplotlib | Seaborn*  
 
 Analyzing 46.7 million Flipkart grocery sales records to optimize product strategies, city-wise performance, and customer retention for revenue growth.  
 
